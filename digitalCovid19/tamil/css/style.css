@@ -1,0 +1,263 @@
+body{
+	font-family: 'arial', sans-serif;
+}
+.bg-green{
+	background-color: #4cad5c;
+}
+
+.navbar-brand img{
+	max-height: 60px;
+	width: auto;
+}
+.navbar-nav .nav-link{
+	color: #fff;
+}
+.navbar-nav .nav-link:hover{
+	color: #eee;
+}
+
+.loginbox{
+	border-radius: 20px;
+	max-width: 500px;
+	height: auto;
+}
+.userbox{
+	border-radius: 20px;
+	padding: 50px 20px;
+}
+
+.hidden{
+	display: none;
+}
+select{
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  width: 100%;
+  min-height: 45px;
+  border: none; /* <-- This thing here */
+  border:solid 1px #4cad5c;
+  padding:10px;
+  color: #444;
+}
+select:active {
+	outline: none;
+	border: none;
+}
+
+select:focus {outline:0;}
+
+
+input[type=text]{
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  width: 100%;
+  min-height: 45px;
+  margin: 0 auto;
+  border: none; /* <-- This thing here */
+  border:solid 1px #4cad5c;
+  padding: 20px;
+}
+input[type=password]{
+   -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  width: 100%;
+  min-height: 45px;
+  margin: 0 auto;
+  border: none; /* <-- This thing here */
+  border:solid 1px #4cad5c;
+  padding: 20px;
+}
+input[type=email]{
+   -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  width: 100%;
+  min-height: 45px;
+  margin: 0 auto;
+  border: none; /* <-- This thing here */
+  border:solid 1px #4cad5c;
+  padding: 20px;
+}
+input[type=date]{
+   -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  width: 100%;
+  min-height: 45px;
+  margin: 0 auto;
+  border: none; /* <-- This thing here */
+  border:solid 1px #4cad5c;
+  padding-left: 20px;
+}
+
+
+.btn{
+	border-radius: 25px;
+	padding: 10px 35px;
+}
+.btn-green{
+	background-color: #4cad5c;
+	color: #fff;
+}
+.btn-green:hover{
+	color: #fff;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.btn-white{
+	background-color: #fff;
+	color: #4cad5c;
+}
+.btn-white:hover{
+	background-color: #eee;
+	color: #4cad5c;
+	box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.19);
+}
+
+
+
+.fnt-green{
+	color: #4cad5c;
+	text-decoration: none;
+}
+a.fnt-green:hover{
+	color: green;
+	text-decoration: none;
+}
+
+.fnt-white{
+	color: #fff;
+	text-decoration: none;	
+}
+a.fnt-white:hover{
+	color: #eee;
+	text-decoration: none;	
+}
+.fnt-gray{
+	color: gray;
+}
+.fnt-red{
+	color: red;
+}
+.fnt-yellow{
+	color: yellow;
+}
+.fnt-orange{
+	color: orange;
+}
+
+.profilePic{
+	border:3px solid #fff;
+	width: 65px;
+	height: 65px;
+}
+.safeStatus{
+	border-radius: 25px 25px 25px 25px;
+	margin-top: 14px;
+	margin-right: -50px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 30px;
+	padding-right: 60px;
+	background-color: #fff;
+	color: #4cad5c;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: #4cad5c;
+  background-color: #4cad5c;
+}
+
+.addedItems{
+	display: inline-block;
+	border: 1px solid #4cad5c;
+	border-radius: 20px;
+	margin: 5px 10px;
+	width: 200px;
+	height: 250px;
+	overflow: hidden;
+}
+.addedItems2{
+	display: inline-block;
+	border: 1px solid #4cad5c;
+	color: #444;
+	border-radius: 20px;
+	margin: 5px 5px;
+	width: 150px;
+	height: auto;
+	overflow: hidden;
+	padding-top: 20px;
+	padding-bottom: 7px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.addedContactItems{
+	display: inline-block;
+	border: 1px solid #4cad5c;
+	border-radius: 20px;
+	margin: 5px 10px;
+	width: 300px;
+	height: 250px;
+	overflow: hidden;
+}
+.notif-green{
+	border: 2px solid #4cad5c;
+	border-radius: 20px;
+	margin: 10px 10px;
+	background-color: #ddd;
+	color: #444;
+}
+.notif-red{
+	border: 2px solid red;
+	border-radius: 20px;
+	margin: 10px 10px;
+	background-color: #ddd;
+	color: #444;
+}
+.notif-yellow{
+	border: 2px solid yellow;
+	border-radius: 20px;
+	margin: 10px 10px;
+	background-color: #ddd;
+	color: #444;
+}
+.notif-orange{
+	border: 2px solid orange;
+	border-radius: 20px;
+	margin: 10px 10px;
+	background-color: #ddd;
+	color: #444;
+}
+.langbar{
+	background-color: #fff;
+	padding: 10px 15px;
+	border-radius: 15px 15px 15px 15px;
+	margin-top: auto;
+	margin-bottom: auto;
+	color: #444;
+
+}
+.langbar a{
+	color: #4cad5c;
+}
+.langbar a:hover{
+	color: #4cad5c;
+}
+.chatDoctor{
+	text-align: center;
+	padding: 10px;
+	border: 2px solid #4cad5c;
+	border-radius: 20px;
+	margin: 5px 5px;
+	background-color: #fff;
+	color: #444;
+	max-width: 400px;
+	display: inline-block;
+}
+.chatDoctor:hover{
+	border: 2px solid #444;
+	background-color: #eee;
+}
